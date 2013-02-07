@@ -22,7 +22,7 @@ using namespace std;
 class CommandAndControl: public UtilPipeline {
 
 private:
-	std::vector<pxcCHAR *> commands;
+	std::vector<wstring> commands;
 
 public:
 
@@ -30,12 +30,12 @@ public:
 		EnableVoiceRecognition();
 	}
 
-	void AddCommand(pxcCHAR* cmd)  {
+	void AddCommand(wstring cmd)  {
 		commands.push_back(cmd);
 	}
 
 	void SetGrammar()	{
-		this->SetVoiceCommands(commands.size(), &commands[0]);
+		this->SetVoiceCommands(commands);
 	}
 	
 	void PXCAPI OnRecognized(PXCVoiceRecognition::Recognition *data) {

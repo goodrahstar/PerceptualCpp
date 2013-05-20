@@ -3,7 +3,13 @@ PerceptualCpp
 
 Perceptual Computing SDK C++ examples and code
 
-## VoiceRecognition  ([Ratko](http://twitter.com/ThatRatko))
+### Tiny Gesture Example  ([Ratko](http://twitter.com/ThatRatko))
+Shows how to use PerC SDK for detecting static gestures as well as node positions.
+
+### Tiny Face Example  ([Ratko](http://twitter.com/ThatRatko))
+Shows how to use PerC SDK for detecting face, getting the face position and face landmarks.
+
+### TinyVoiceRecognition  ([Ratko](http://twitter.com/ThatRatko))
 Shows how to use PerC SDK for recognizing speech. Two approaches are shown:
 * Dictation
 	* Recognizes unconstrained speech (less accurate)

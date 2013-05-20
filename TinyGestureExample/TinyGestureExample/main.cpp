@@ -35,7 +35,7 @@ int main(int argc, wchar_t* argv[]) {
 			// get the node data for the whole primary hadn (the one that shows up in the view first)
 			PXCGesture::GeoNode handNode;
 			if(gesture->QueryNodeData(0, PXCGesture::GeoNode::LABEL_BODY_HAND_PRIMARY, &handNode) != PXC_STATUS_ITEM_UNAVAILABLE)
-				cout << "Primary hand at x = " << handNode.positionWorld.x << " y = " << handNode.positionWorld.y << " z = " << handNode.positionWorld.z;
+				cout << "\nPrimary hand at x = " << handNode.positionWorld.x << " y = " << handNode.positionWorld.y << " z = " << handNode.positionWorld.z;
 
 			// we must release the frame
 			pipeline.ReleaseFrame();

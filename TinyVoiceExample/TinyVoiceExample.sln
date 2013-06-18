@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyVoiceRecognition", "TinyVoiceRecognition\TinyVoiceRecognition.vcxproj", "{C3E549A0-E16C-4371-8CF4-A0A04039D646}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyVoiceExample", "TinyVoiceExample\TinyVoiceExample.vcxproj", "{C3E549A0-E16C-4371-8CF4-A0A04039D646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
